@@ -11,21 +11,14 @@ const answer = prompt (
 
 const response = answer.split(",");
 
-//! Build an object to track which flavors you have counted so far
+//! Build an object to track which flavors you have counted so far, Object to be updated through the array of flavors
 
-function countFlavors(flavors){};
-
-//! Object to be updated through the array of flavors
-
-const flavors = {};
-    for (
-        let i = 0;
-        i < flavors.length;
-        i++
-    )
-    flavors[i];
-    return flavors;
-    console.log(flavors);
+function countFlavors(answer) {
+    const flavorCounting = {};
+    for (let i = 0; i < answer.length; i++){
+        countFlavors = answer[i];
+    };
+};
 
 // ! TO DO
 
