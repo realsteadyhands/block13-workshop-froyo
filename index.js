@@ -2,27 +2,29 @@
 //? Do your variables and functions have meaningful names?
 //? Is your code formatted?
 
-const textInput = prompt("Enter a list of comma-separated froyo flavors");
-const description = 
-
 //! Prompt the user for froyo flavors and store their input
 
-
+const answer = prompt (
+    "Enter a list of comma-separated froyo flavors. ex: vanilla, vanilla, vanilla, strawberry, coffee, coffee");
 
 //! Parse the user input into an array of froyo flavors
 
-
+const response = answer.split(",");
 
 //! Build an object to track which flavors you have counted so far
 
-
+JSON.parse(response);
 
 //! Object to be updated through the array of flavors
 
+JSON.stringify(response);
+
+    Object.assign({}, inputObj);
+    let = inputObj;
 
 
 
-// ! TO DO
+    // ! TO DO
 
 // Student repo contains multiple commits with descriptive messages.
 // The repo contains an HTML file and a connected JS file.
@@ -34,6 +36,3 @@ const description =
 // The logic for counting the frequencies of elements in an array is organized into a function that returns an object.
 // Variables and functions have meaningful names.
 // The console output changes depending on the user's input.
-
-
-*/
