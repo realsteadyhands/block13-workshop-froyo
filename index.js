@@ -13,18 +13,21 @@ const response = answer.split(",");
 
 //! Build an object to track which flavors you have counted so far
 
-JSON.parse(response);
+function countFlavors(flavors){};
 
 //! Object to be updated through the array of flavors
 
-JSON.stringify(response);
+const flavors = {};
+    for (
+        let i = 0;
+        i < flavors.length;
+        i++
+    )
+    flavors[i];
+    return flavors;
+    console.log(flavors);
 
-    Object.assign({}, inputObj);
-    let = inputObj;
-
-
-
-    // ! TO DO
+// ! TO DO
 
 // Student repo contains multiple commits with descriptive messages.
 // The repo contains an HTML file and a connected JS file.
